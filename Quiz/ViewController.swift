@@ -198,7 +198,7 @@ class ViewController: UIViewController {
         quizEnded = true //atualiza a variavel Booleana que indica o termino do quiz
         viewFeedback.hidden = false //mostra a view Feedback
          viewFeedback.backgroundColor = myFeedColor
-        lblFeddback.text = "Sua Nota: \(grade) - \nMATHEUS-COURSERA" //atualiza o texto feedback mostrando sua nota
+        lblFeddback.text = "Sua Nota: \(grade) - \n#PartiuMackMobile" //atualiza o texto feedback mostrando sua nota
         btnFeedback.setTitle("Refazer", forState: UIControlState.Normal) //atualiza o texto do botao feedback
         
     }
